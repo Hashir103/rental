@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h2 style="color: #2F4B26;">Welcome Renters!</h2>
+                <a href="/renterPage.php" class="login-button">Get Started</a>
+                <br>
+                <a href="#" id="propertyManagerLink">Switch to Property Manager</a>
+            </div>
+            <div class="flip-card-back">
+                <h2 style="color: #2F4B26;"><center>Welcome Managers!</center></h2>
+                <a href="/managerPage.php" class="flip-button">Get Started</a>
+                <br>
+                <a href="#" id="flipToRenterLink">Switch to Renter Login</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('propertyManagerLink').addEventListener('click', function() {
+            document.querySelector('.flip-card-inner').classList.add('flipped');
+        });
+
+        document.getElementById('flipToRenterLink').addEventListener('click', function() {
+            document.querySelector('.flip-card-inner').classList.remove('flipped');
+        });
+    </script>
+</body>
+</html>
