@@ -45,6 +45,7 @@
     <table>
             <tr>
                 <th>Code</th>
+                <th>Type</th>
                 <th>Street</th>
                 <th>City</th>
                 <th>Province</th>
@@ -53,7 +54,6 @@
                 <th>Parking</th>
                 <th>Access</th>
                 <th>Laundry</th>
-                <th>Type</th>
                 <th>Beds</th>
                 <th>Bath</th>
                 <th>Cost</th>
@@ -75,7 +75,7 @@
             include 'managerGetRentAverages.php';
             ?>
         </table>
-        <a href="" class="login-button">Add a Property</a> <a href="/rental.html" class="login-button">Back to Home</a>
+        <a href="/rental.html" class="login-button">Back to Home</a>
     </div>
 </body>
 </html>

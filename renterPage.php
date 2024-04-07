@@ -70,50 +70,50 @@
             </div>
     </div>
     <div class="modal" id="preferencesModal">
-    <div class="modal-content">
-        <span class="close" id="closeModal">&times;</span>
-        <h2>Modify Group Preferences</h2>
-        <!-- Form for preferences -->
-        <form id="preferencesForm">
-            <label for="unitType">Unit Type:</label>
-            <select id="unitType" name="unitType" required>
-                <option value="House">House</option>
-                <option value="Apartment">Apartment</option>
-                <option value="Room">Room</option>
-            </select>
-            <br><br>
-            <label for="parking">Parking:</label>
-            <select id="parking" name="parking" required>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-            </select>
-            <br><br>
-            <label for="accessibility">Accessibility:</label>
-            <select id="accessibility" name="accessibility" required>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-            </select>
-            <br><br>
-            <label for="laundry">Laundry:</label>
-            <select id="laundry" name="laundry" required>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-            </select>
-            <br><br>
-            <label for="beds">Beds:</label>
-            <input type="number" id="beds" name="beds" required>
-            <br><br>
-            <label for="baths">Baths:</label>
-            <input type="number" id="baths" name="baths" required>
-            <br><br>
-            <label for="cost">Cost:</label>
-            <input type="number" step="0.01" id="cost" name="cost" required>
-            <br><br>
-            <!-- Add more form fields as needed -->
-            <button type="submit" class="login-button" id="savePreferencesBtn">Save Preferences</button>
-        </form>
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Modify Group Preferences</h2>
+            <!-- Form for preferences -->
+            <form id="preferencesForm">
+                <label for="unitType">Unit Type:</label>
+                <select id="unitType" name="unitType" required>
+                    <option value="House">House</option>
+                    <option value="Apartment">Apartment</option>
+                    <option value="Room">Room</option>
+                </select>
+                <br><br>
+                <label for="parking">Parking:</label>
+                <select id="parking" name="parking" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <br><br>
+                <label for="accessibility">Accessibility:</label>
+                <select id="accessibility" name="accessibility" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <br><br>
+                <label for="laundry">Laundry:</label>
+                <select id="laundry" name="laundry" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <br><br>
+                <label for="beds">Beds:</label>
+                <input type="number" id="beds" name="beds" required>
+                <br><br>
+                <label for="baths">Baths:</label>
+                <input type="number" id="baths" name="baths" required>
+                <br><br>
+                <label for="cost">Cost:</label>
+                <input type="number" step="0.01" id="cost" name="cost" required>
+                <br><br>
+                <!-- Add more form fields as needed -->
+                <button type="submit" class="login-button" id="savePreferencesBtn">Save Preferences</button>
+            </form>
+        </div>
     </div>
-</div>
     <script>
         // jQuery function to handle click event on anchor tag
         $(document).ready(function() {
@@ -240,6 +240,6 @@
                 });
             });
         });
-</script>
+    </script>
 </body>
 </html>
