@@ -231,6 +231,7 @@
                     success: function(response) {
                         alert('Preferences saved successfully!');
                         modal.style.display = 'none'; // Hide the modal after successful update
+                        location.reload(); // Reload the page to reflect changes
                     },
                     error: function(xhr, status, error) {
                         alert('An error occurred while saving preferences.');
